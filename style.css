@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.top-container {
+    background-color: #1F2937;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+}
+
+.main-picture {
+    width: 300px;
+    border-radius: 20%;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-link {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content-main {
+    padding: 50px 100px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.main-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9f1f8;
+    margin: 0;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+button.sign-up {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid royalblue;
+    width: 120px;
+    font-size: 18px;
+}
+
+.list-picture {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.dog-picture-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    color: lightgray;
+    font-size: 18px;
+}
+
+.picture-and-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.information-container {
+    padding: 0 300px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-source{
+    align-self: end;
+}
+
+.bottom-container {
+    margin: 100px 150px;
+    padding: 50px;
+    border-radius: 5%;
+    background-color: #3882f6;
+}
